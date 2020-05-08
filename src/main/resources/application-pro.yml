@@ -4,11 +4,7 @@ spring:
         driverClassName: com.mysql.jdbc.Driver
         druid:
             first:
-                url: jdbc:mysql://172.16.70.20:3307/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-                username: rd_user
-                password: NTHXDF7czYwi
-            second:
-                url: jdbc:mysql://172.16.70.20:3307/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                url: jdbc:mysql://127.0.0.1:3306/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
                 username: rd_user
                 password: NTHXDF7czYwi
             initial-size: 10
