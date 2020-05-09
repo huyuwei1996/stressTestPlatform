@@ -4,9 +4,9 @@ spring:
         driverClassName: com.mysql.jdbc.Driver
         druid:
             first:
-                url: jdbc:mysql://127.0.0.1:3306/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
-                username: rd_user
-                password: NTHXDF7czYwi
+                url: jdbc:mysql://localhost:3306/renren_fast?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                username: root
+                password: root@108
             initial-size: 10
             max-active: 100
             min-idle: 10
